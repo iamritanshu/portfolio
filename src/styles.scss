@@ -16,3 +16,20 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+#element {
+  text-decoration: underline;
+}
+.slideshow {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.slide {
+  display: none;
+  width: 100%;
+}
+.slide img {
+  width: 100%;
+  height: auto;
+}
